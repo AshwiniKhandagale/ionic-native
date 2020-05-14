@@ -4,6 +4,7 @@ import { Cordova, IonicNativePlugin, Plugin } from '@ionic-native/core';
 export interface AppLauncherOptions {
   uri?: string;
   packageName?: string;
+  extras?:any;
 }
 
 /**
